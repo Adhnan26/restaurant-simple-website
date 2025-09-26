@@ -1,0 +1,99 @@
+body {
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    background-color: black;
+}
+
+.header-nav__title {
+    color: white;
+    padding-top: 20px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.header-nav__subtitle li {
+    color: grey;
+    cursor: pointer;
+    padding-bottom: 20px;
+    font-size: 20px;
+    display: inline;
+    margin-bottom: 5px;
+}
+
+.header-nav__subtitle ul {
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+.header-nav__subtitle li:hover {
+    color: white;
+
+}
+
+
+.img-one,
+.img-one__burger,
+.img-two,
+.img-two__pizza,
+.img-three,
+.img-three__wrap,
+.img-four,
+.img-four__hotdog {
+    height: 400px;
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+
+
+}
+
+.img-one__button,
+.img-two__button,
+.img-three__button,
+.img-four__button {
+    vertical-align: bottom;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+}
+
+.img-one,
+.img-two,
+.img-three,
+.img-four {
+    border: solid black 2px;
+    height: 550px;
+}
+
+.contact-title {
+    padding-right: 85%;
+}
+
+.contact {
+    font-size: large;
+    background-color: black;
+    color: white;
+    padding-left: 45%;
+
+}
+
+.button {
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    width: 250px;
+    height: 30px;
+    font-size: medium;
+    margin-right: 85%;
+}
